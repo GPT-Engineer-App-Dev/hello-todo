@@ -43,6 +43,11 @@ const Todo = () => {
           Add
         </Button>
       </div>
+      <div className="mt-4">
+        <Button asChild>
+          <Link to="/about">Learn more about us</Link>
+        </Button>
+      </div>
       <ul className="space-y-2">
         {todos.map((todo) => (
           <li
